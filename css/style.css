@@ -38,28 +38,25 @@ h4 {
   color:black;
 }
 
-#clients{
+#portfolio{
  background-color: white;
   color:black;
 }
 
-#contact, #products{
+#contact, #technologies{
 	background-color: rgb(0,150,180);
     color: #ffffff;
 }
 .logo-small {
     color: #fff;
     width: 60px;
-    font-size: 60px;
 }
 
 .logo {
-    height: 150px;
-    margin-top: 50px;
+    height: 200px;
 }
 
 .thumbnail {
-    border: none;
     border-radius: 0;
 }
 
