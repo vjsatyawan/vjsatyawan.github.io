@@ -129,6 +129,14 @@ blockquote {
     	document.getElementById("randomQuote").innerHTML = newQuote;
     	document.getElementById("tweetLink").setAttribute("href","http://twitter.com/home/?status="+newQuote);
   	}
+    var myVar = setInterval(myTimer, 5000);
+
+    function myTimer() {
+    	var randomquote = Math.floor(Math.random()*(quote.length));
+    	var newQuote = quote[randomquote];
+    	document.getElementById("randomQuote").innerHTML = newQuote;
+    	document.getElementById("tweetLink").setAttribute("href","http://twitter.com/home/?status="+newQuote);
+    }
     </script>
 
 
